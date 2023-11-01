@@ -1,6 +1,8 @@
 
 # Exercise 4.4—Enemies
 
+Oct 31. 2023
+
 Exercise for MSCH-C220
 
 An exercise for the 2D Platformer project, exploring attacking and three different enemy types.
