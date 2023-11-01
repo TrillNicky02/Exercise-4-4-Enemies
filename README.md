@@ -17,7 +17,7 @@ The enemies are from the [Medieval Fantasy Character Pack by OcO](https://oco.it
 
 ## References
 
-None
+* This work is heavily based on the videos and directions of Professor Jason Francis
 
 ## Future Development
 
