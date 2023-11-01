@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://bjveasu3xidad"]
 
-[ext_resource type="Texture2D" uid="uid://ccy0urfogkwxd" path="res://Assets/player.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bsuutkbig0l8w" path="res://Assets/player.png" id="1"]
 [ext_resource type="Script" path="res://StateMachine/Jumping.gd" id="2"]
 [ext_resource type="Script" path="res://StateMachine/Moving.gd" id="3"]
 [ext_resource type="Script" path="res://StateMachine/StateMachine.gd" id="4"]
@@ -167,7 +167,9 @@ script = ExtResource("9")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_vkkk0")
-animation = &"Moving"
+animation = &"Attacking"
+frame = 3
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 23)

@@ -51,8 +51,16 @@ func _on_AnimatedSprite_animation_finished():
 		SM.set_state("Move")
 	if SM.state_name == "Die":
 		queue_free()
+		
+func _on_attack_body_entered(body):
+	if body.name == "Player":
+		body.die()
+		queue_free()
 
 
 func _on_Above_and_Below_body_entered(body):
-	if body.name == "Player" and SM.state_name != "Die":
+	if body.name == "Player" :
 		body.die()
+		queue_free()
+
+	
